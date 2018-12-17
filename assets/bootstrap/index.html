@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Key-in Mahasiswa UII</title> 
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+  <center><h1>Key-in Mahasiswa UII</h1></center>
+  <center><h3>Daftar Mata Kuliah UII</h3></center>
+  <center><?php echo anchor('crud_controller/Add2','Add'); ?></center>
+  <center><?php echo anchor('crud_controller/index','Daftar Mahasiswa'); ?></center>  
+  <table class="table">
+    <thead>
+    <tr>
+      <th scope="col">No</th>
+      <th scope="col">ID</th>
+      <th scope="col">Nama</th>
+      <th scope="col">Sks</th>
+      <th scope="col">Kelas</th>
+      <th scope="col">Pilihan</th>
+    </tr>
+    </thead>
+    <?php 
+    $No = 1;
+    foreach($tb_matkul as $r){ 
+    ?>
+    <tbody>
+    <tr>
+      <td><?php echo $No++ ?></td>
+      <td><?php echo $r->id ?></td>
+      <td><?php echo $r->nama ?></td>
+      <td><?php echo $r->sks ?></td>
+      <td><?php echo $r->kelas ?></td>
+      <td><?php echo anchor('crud_controller/Edit2/'.$r->no,'Edit'); ?>
+                <?php echo anchor('crud_controller/Delete2/'.$r->no,'Delete'); ?>
+      </td>
+    </tr>
+    </tbody>
+    <?php } ?>
+  </table>
+</body>
+</html>

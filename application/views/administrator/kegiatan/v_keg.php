@@ -26,7 +26,7 @@
         <a href="<?php echo base_url('index.php/Kegiatancontroller/form_edit3/'.$data['id_k']) ?>"class="btn btn-primary">Edit</a> 
           <a href="<?php echo site_url('Kegiatancontroller/Delete3/'.$data['id_k']) ?>" onclick="return confirm('Yakin mau di hapus?')"
             class="btn btn-danger">Hapus</a>
-            <a href="<?php echo site_url('Kegiatancontroller/form_notif') ?>"class="btn btn-info" onclick="return confirm('Apakah Anda ingin Mengirimkan pesan ini?')"> send notification </a>
+<!--            <a href="<?php echo site_url('Kegiatancontroller/form_notif') ?>"class="btn btn-info" onclick="return confirm('Apakah Anda ingin Mengirimkan pesan ini?')"> send notification </a>-->
       </td>
     </tr>
         <?php } ?>

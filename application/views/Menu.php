@@ -45,10 +45,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <a class="nav-link js-scroll-trigger" href="#berita">Berita</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+              <a class="nav-link js-scroll-trigger" href="#galeri">Galeri</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#galeri">Galeri</a>
+              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
@@ -61,10 +61,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <a class="nav-link js-scroll-trigger" href="<?php echo site_url('Auth/index1') ?>"> Login </a> 
             </li>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="profil.html">Profil</a>
-    <a class="dropdown-item" href="semuabencana.html">Donasi</a>
-    <a class="dropdown-item" href="riwayat.html">Riwayat</a>
-    <a class="dropdown-item" href="login.html">Sign out</a>
 
   </div>
           </ul>
@@ -82,7 +78,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <c class="lead">Sistem Relawan Berkompetensi</c><br>
+            <c class="lead">Sistem Pendataan Relawan Berkompetensi</c><br>
             <p class="lead">Muda dan Berkompetensi</p>
             <!-- <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a> -->
             <a class="btn btn-primary btn-xl js-scroll-trigger"href="<?php echo site_url('Auth/register') ?>" role="button"> Daftarkan Dirimu Sekarang!</a>
@@ -160,102 +156,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
 
           </div>  
-    </section>
-    <body class="center">
-        <section id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Our Beautiful Team!</h2>
-            <hr class="my-4">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class=" text-primary mb-3 sr-img-1"></i><img border-radius: 150px width=200px src="<?php echo base_url(); ?>assets3/img/raisha.jpg" alt="Card image cap">
-              <h4 class="mb-3">Raisha Amini D.S.</h4>
-              <p class="text-muted mb-0">Web Developer</p>
-              <p class="text-muted mb-0">17523148</p>
-              <p class="text-muted mb-0">Informatics</p>
-               <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="text-primary mb-3 sr-icon-2"></i><img border-radius: 150px width=200px src="<?php echo base_url(); ?>assets3/img/tika.jpg" alt="Card image cap">
-              <h4 class="mb-3">Aldhiyatika Amwin</h4>
-              <p class="text-muted mb-0">Web Developer</p>
-              <p class="text-muted mb-0">17523176</p>
-              <p class="text-muted mb-0">Informatics</p>
-               <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="text-primary mb-3 sr-icon-3"></i><img border-radius: 150px width=200px src="<?php echo base_url(); ?>assets3/img/dewi.JPG" alt="Card image cap">
-              <h4 class="mb-3">Dewi Nadhiroh</h4>
-              <p class="text-muted mb-0">Web Developer</p>
-              <p class="text-muted mb-0">17523235</p>
-              <p class="text-muted mb-0">Informatics</p>
-               <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </body>
 
 
     <section id="galeri">
@@ -409,6 +309,103 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
       </div>
     </section>
+
+     </section>
+    <body class="center">
+        <section id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Our Beautiful Team!</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class=" text-primary mb-3 sr-img-1"></i><img border-radius: 150px width=200px src="<?php echo base_url(); ?>assets3/img/raisha.jpg" alt="Card image cap">
+              <h4 class="mb-3">Raisha Amini D.S.</h4>
+              <p class="text-muted mb-0">Web Developer</p>
+              <p class="text-muted mb-0">17523148</p>
+              <p class="text-muted mb-0">Informatics</p>
+               <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="text-primary mb-3 sr-icon-2"></i><img border-radius: 150px width=200px src="<?php echo base_url(); ?>assets3/img/tika.jpg" alt="Card image cap">
+              <h4 class="mb-3">Aldhiyatika Amwin</h4>
+              <p class="text-muted mb-0">Web Developer</p>
+              <p class="text-muted mb-0">17523176</p>
+              <p class="text-muted mb-0">Informatics</p>
+               <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="text-primary mb-3 sr-icon-3"></i><img border-radius: 150px width=200px src="<?php echo base_url(); ?>assets3/img/dewi.JPG" alt="Card image cap">
+              <h4 class="mb-3">Dewi Nadhiroh</h4>
+              <p class="text-muted mb-0">Web Developer</p>
+              <p class="text-muted mb-0">17523235</p>
+              <p class="text-muted mb-0">Informatics</p>
+               <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 
  <!-- About -->
     <section id="about">

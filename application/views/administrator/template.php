@@ -253,6 +253,7 @@
             <li><a href="../charts/chartjs.html"><i style="color: white" class="fa fa-circle-o"></i><span style="color: white"> ChartJS</a></li></span>
           </ul>
         </li> -->
+<!--
         <li>
           <a href="<?php echo base_url()?>index.php/Auth/index2">
             <i style="color: white" class="fa fa-calendar"></i> <span style="color: white">Calendar</span>
@@ -272,6 +273,7 @@
             </span>
           </a>
         </li>
+-->
         <li>
           <a href="<?php echo base_url()?>index.php/Auth/pengaturan_profil">
             <i style="color: white"class="fa fa-user"></i> <span style="color: white">Pengaturan Profil</span>

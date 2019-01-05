@@ -12,10 +12,12 @@
                         <div class="profile-img">
                             <img border-radius: 150px width=200px src="<?php echo base_url(); ?>assets3/img/profilbnpb.png" alt="Card image cap">
                             <br><br>
+<!--
                             <div class="file btn btn-lg btn-info">
                                 Change Photo
                                 <input type="file" name="file"/>
                             </div>
+-->
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -41,7 +43,7 @@
                         <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
                     </div>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-md-4">
                         <div class="profile-work">
                             <p>WORK LINK</p>
@@ -56,7 +58,7 @@
                             <a href="">PHP, .Net</a><br/>
                         </div>
                     </div>
-                    <div class="col-md-8">
+                 -->    <div class="col-md-8">
                         <div class="tab-content profile-tab" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                         <div class="row">
@@ -80,7 +82,7 @@
                                                 <label>Email</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>raisha@gmail.com</p>
+                                                <p>amber@gmail.com</p>
                                             </div>
                                         </div>
                                         <div class="row">

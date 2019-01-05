@@ -27,7 +27,7 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans:300,400,600,700,400italic,400italic,600italic">
 </head>
-<body class="hold-transition register-page">
+<body class="hold-transition register-page" style="background-color: #ffa068;">
 <div class="register-box">
   <div class="register-logo">
     <h3 href="../../index2.html"><b>Ayo Daftar Menjadi Relawan^-^</b></h3>
@@ -39,47 +39,47 @@
     <form action="<?php echo base_url()?>index.php/auth/reg_action" method="post">
       <div class="form-group has-feedback">
         <input type="text" name="nama_lengkap" class="form-control" placeholder="Nama Lengkap">
-        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+        <!-- <span class="glyphicon glyphicon-user form-control-feedback"></span> -->
       </div>
       <div class="form-group has-feedback">
-        <input type="text" name="nik" class="form-control" placeholder="NIK">
-        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+        <input type="int" name="nik" class="form-control" placeholder="NIK">
+       <!--  <span class="glyphicon glyphicon-user form-control-feedback"></span> -->
       </div>
       <div class="form-group has-feedback">
         <input type="email" name="email" class="form-control" placeholder="Email">
-        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+       <!--  <span class="glyphicon glyphicon-envelope form-control-feedback"></span> -->
       </div>
       <div class="form-group has-feedback">
         <input type="password" name="password" class="form-control" placeholder="Password">
-        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+       <!--  <span class="glyphicon glyphicon-lock form-control-feedback"></span> -->
       </div>
       <div class="form-group has-feedback">
         <input type="password" name="repassword" class="form-control" placeholder="Retype password">
-        <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+       <!--  <span class="glyphicon glyphicon-lock form-control-feedback"></span> -->
       </div>
       <div class="form-group has-feedback">
-        <input type="text" name="asal" class="form-control" placeholder="Alamat Asal">
-        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+        <input type="textarea" name="asal" class="form-control" placeholder="Alamat Asal">
+       <!--  <span class="glyphicon glyphicon-user form-control-feedback"></span> -->
       </div>
       <div class="form-group has-feedback">
         <input type="text" name="tempat" class="form-control" placeholder="Tempat Lahir">
-        <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+        <!-- <span class="glyphicon glyphicon-log-in form-control-feedback"></span> -->
       </div>
       <div class="form-group has-feedback">
         <input type="date" name="tgl_lahir" class="form-control" placeholder="Tanggal Lahir">
-        <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+      <!--   <span class="glyphicon glyphicon-log-in form-control-feedback"></span> -->
       </div>
       <div class="form-group has-feedback">
-        <input type="area" name="alamat" class="form-control" placeholder="Alamat Sekarang">
-        <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+        <input type="textarea" name="alamat" class="form-control" placeholder="Alamat Sekarang">
+       <!--  <span class="glyphicon glyphicon-log-in form-control-feedback"></span> -->
       </div>
       <div class="form-group has-feedback">
         <input type="text" name="keahlian" class="form-control" placeholder="Keahlian">
-        <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+      <!--   <span class="glyphicon glyphicon-log-in form-control-feedback"></span> -->
       </div>
       <div class="form-group has-feedback">
-        <input type="text" name="desk_keahlian" class="form-control" placeholder="Deskripsi Keahlian">
-        <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+        <input type="textarea" name="desk_keahlian" class="form-control" placeholder="Deskripsi Keahlian">
+       <!--  <span class="glyphicon glyphicon-log-in form-control-feedback"></span> -->
       </div>
       <div class="row">
         <div class="col-xs-8">
@@ -96,6 +96,7 @@
         <!-- /.col -->
       </div>
     </form>
+<!--
 
     <div class="social-auth-links text-center">
       <p>- OR -</p>
@@ -104,6 +105,7 @@
       <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Sign up using
         Google+</a>
     </div>
+-->
 
     <a href="<?php echo base_url() ?>index.php/auth" class="text-center">Sudah Memiliki Akun</a>
   </div>

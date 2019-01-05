@@ -27,13 +27,13 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition login-page">
-<div class="login-box">
+<body class="hold-transition login-page" style="background-color: #ffa068;">
+<div class="login-box" >
   <div class="login-logo">
     <a href="../../index2.html"><b>Log In</b></a>
   </div>
   <!-- /.login-logo -->
-  <div class="login-box-body">
+  <div class="login-box-body" >
     
 
     <form action="<?php echo base_url() ?>index.php/auth/login_action" method="post">
@@ -61,6 +61,7 @@
       </div>
     </form>
 
+<!--
     <div class="social-auth-links text-center">
       <p>- OR -</p>
       <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign in using
@@ -68,6 +69,7 @@
       <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Sign in using
         Google+</a>
     </div>
+-->
     <!-- /.social-auth-links -->
 
     <a href="#">Lupa Password</a><br>

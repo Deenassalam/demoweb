@@ -148,7 +148,7 @@
                 <img src="<?php echo base_url(); ?>assets3/img/profiil.png" class="img-circle" alt="User Image">
 
                 <p style="color:black;">
-                  Pevita Pierce- Relawan
+                  Aldhiyatika Amwin- Relawan
                 </p>
               </li>
               <!-- Menu Body -->
@@ -186,7 +186,7 @@
           <img src="<?php echo base_url(); ?>assets3/img/profiil.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Pevita Pierce</p>
+          <p>Aldhiyatika Amwin</p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
@@ -220,6 +220,7 @@
             </span>
           </a>
         </li>
+<!--
         <li>
           <a href="<?php echo base_url()?>index.php/Relawancontroller/indexkalender">
             <i style="color: white"class="fa fa-calendar"></i> <span style="color: white">Calendar</span>
@@ -229,6 +230,8 @@
             </span>
           </a>
         </li>
+-->
+<!--
         <li>
           <a href="<?php echo base_url()?>index.php/Relawancontroller/indexmailbox">
             <i style="color: white"class="fa fa-envelope"></i> <span style="color: white">Mailbox</span>
@@ -239,6 +242,7 @@
             </span>
           </a>
         </li>
+-->
         <li>
           <a href="<?php echo base_url()?>index.php/Relawancontroller/pengaturan_p">
             <i style="color: white"class="fa fa-user"></i> <span style="color: white">Pengaturan Profil</span>

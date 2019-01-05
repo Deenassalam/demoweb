@@ -32,7 +32,7 @@
         <a href="<?php echo base_url('index.php/Administrator/form_edit1/'.$data['id']) ?>"class="btn btn-primary">Edit</a> 
           <a href="<?php echo site_url('Administrator/Delete1/'.$data['id']) ?>" onclick="return confirm('Yakin mau di hapus?')"
             class="btn btn-danger">Hapus</a><br/><br/>
-            <a href="<?php echo site_url('Relawan_controller/form_input1') ?>"class="btn btn-info"> send notification </a>
+<!--            <a href="<?php echo site_url('Relawan_controller/form_input1') ?>"class="btn btn-info"> send notification </a>-->
       </td>
     </tr>
         <?php } ?>
